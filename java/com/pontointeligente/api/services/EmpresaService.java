@@ -17,7 +17,6 @@ public interface EmpresaService {
 	 */
 	Optional<Empresa> buscarPorCnpj(String cnpj);
 	
-	
 	/**
 	 * Cadastra uma nova empresa na base de dados
 	 * 
