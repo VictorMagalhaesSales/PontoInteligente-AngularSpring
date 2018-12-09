@@ -1,4 +1,4 @@
-/*package com.pontointeligente.api.controllers;
+package com.pontointeligente.api.controllers;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -24,7 +24,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pontointeligente.api.dtos.LancamentoDto;
+import com.pontointeligente.api.dto.LancamentoDto;
 import com.pontointeligente.api.entities.Funcionario;
 import com.pontointeligente.api.entities.Lancamento;
 import com.pontointeligente.api.enums.TipoEnum;
@@ -127,4 +127,4 @@ public class LancamentoControllerTest {
 		return lancamento;
 	}	
 
-}*/
+}
