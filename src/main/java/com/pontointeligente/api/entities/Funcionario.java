@@ -82,6 +82,11 @@ public class Funcionario implements Serializable {
 		return Optional.ofNullable(qtdHorasTrabalhoDia);
 	}
 	
+	@Transient
+	public Optional<Float> getQtdHorasAlmocoOpt() {
+		return Optional.ofNullable(qtdHorasAlmoco);
+	}
+	
 	@PreUpdate // EXECUTA ANTES DE UM UPDATE
     public void preUpdate() {
         dataAtualizacao = new Date();

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.pontointeligente.api.entities.Empresa;
 import com.pontointeligente.api.repositories.EmpresaRepository;
-import com.pontointeligente.api.service.EmpresaService;
+import com.pontointeligente.api.services.EmpresaService;
 
 @Service
 public class EmpresaServiceImpl implements EmpresaService {

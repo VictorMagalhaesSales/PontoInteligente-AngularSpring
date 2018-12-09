@@ -1,4 +1,4 @@
-/*package com.pontointeligente.api.services;
+package com.pontointeligente.api.services;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -22,6 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.pontointeligente.api.entities.Lancamento;
 import com.pontointeligente.api.repositories.LancamentoRepository;
+import com.pontointeligente.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -64,4 +65,4 @@ public class LancamentoServiceTest {
 		assertNotNull(lancamento);
 	}
 
-}*/
+}

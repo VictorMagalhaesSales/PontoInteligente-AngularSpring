@@ -29,7 +29,7 @@ public class Empresa implements Serializable{
 	@Column(name="razao_social", nullable=false)
 	private String razaoSocial;
 	
-	@Column(name="cpnj", nullable=false)
+	@Column(name="cnpj", nullable=false)
 	private String cnpj;
 	
 	@Column(name="data_criacao", nullable=false)
