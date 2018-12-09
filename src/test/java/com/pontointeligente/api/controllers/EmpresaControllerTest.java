@@ -1,4 +1,4 @@
-/*package com.pontointeligente.api.controllers;
+package com.pontointeligente.api.controllers;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -32,6 +32,7 @@ public class EmpresaControllerTest {
 
 	@Autowired
 	private MockMvc mvc;
+	// Nos permite fazer requisições HTTP com o spring no modo de teste
 
 	@MockBean
 	private EmpresaService empresaService;
@@ -74,4 +75,4 @@ public class EmpresaControllerTest {
 		return empresa;
 	}
 
-}*/
+}
