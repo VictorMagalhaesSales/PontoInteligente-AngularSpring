@@ -10,4 +10,3 @@ A API RESTful de Ponto Inteligente contém as seguintes características:
 * Migração de banco de dados com Flyway
 * Testes unitários e de integração com JUnit e Mockito
 * Caching com EhCache
-* Integração contínua com TravisCI
