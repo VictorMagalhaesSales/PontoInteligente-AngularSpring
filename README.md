@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/VictorMagalhaesSales/ponto-inteligente-api.svg?branch=master)](https://travis-ci.com/VictorMagalhaesSales/ponto-inteligente-api)
+[![Build Status](https://travis-ci.com/VictorMagalhaesSales/ponto-inteligente-api.svg?branch=master)](https://github.com/VictorMagalhaesSales/PontoInteligenteAPI/tree/master/ponto-inteligente-back)
 
 # Ponto Inteligente
 API do sistema de ponto inteligente com Java e Spring Boot.
