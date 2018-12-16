@@ -1,5 +1,6 @@
 package com.pontointeligente.api.services.impl;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.slf4j.Logger;
@@ -43,6 +44,18 @@ public class LancamentoServiceImpl implements LancamentoService {
 	public void remover(Long id) {
 		log.info("Removendo o lançamento ID {}", id);
 		this.lancamentoRepository.delete(id);
+	}
+	
+	public List<Lancamento> buscarTodosPorFuncionarioId(Long funcionarioId) {
+		log.info("Buscando todos os lançamentos para o funcionário ID {}", funcionarioId);
+		return this.lancamentoRepository.findByFuncionarioIdOrderByDataDesc(funcionarioId);
+	}
+	
+	@Override
+	public Optional<Lancamento> buscarUltimoPorFuncionarioId(Long funcionarioId) {
+		log.info("Buscando o último lançamento por ID de funcionário {}", funcionarioId);
+		return Optional.ofNullable(
+				this.lancamentoRepository.findFirstByFuncionarioIdOrderByDataCriacaoDesc(funcionarioId));
 	}
 
 }

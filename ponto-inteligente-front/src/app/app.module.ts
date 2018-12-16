@@ -1,3 +1,5 @@
+import { FuncionarioRoutingModule } from './funcionario/funcionario-routing.module';
+import { FuncionarioModule } from './funcionario/funcionario.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -21,6 +23,7 @@ import { LoginModule, LoginRoutingModule,  CadastroPjModule, CadastroPjRoutingMo
     LoginModule,
     CadastroPjModule,
     CadastroPfModule,
+    FuncionarioModule,
 
     BrowserAnimationsModule,
     FlexLayoutModule,
@@ -30,6 +33,7 @@ import { LoginModule, LoginRoutingModule,  CadastroPjModule, CadastroPjRoutingMo
     LoginRoutingModule,
     CadastroPjRoutingModule,
     CadastroPfRoutingModule,
+    FuncionarioRoutingModule,
     AppRoutingModule,
   ],
   providers: [],
