@@ -1,5 +1,3 @@
-import { FuncionarioRoutingModule } from './funcionario/funcionario-routing.module';
-import { FuncionarioModule } from './funcionario/funcionario.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -13,6 +11,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 // MINHAS CLASSES
 import { LoginModule, LoginRoutingModule,  CadastroPjModule, CadastroPjRoutingModule, CadastroPfModule, CadastroPfRoutingModule } from './autenticacao';
+import { FuncionarioModule, FuncionarioRoutingModule } from './funcionario';
+import { AdminModule, AdminRoutingModule } from './admin';
 
 @NgModule({
   declarations: [
@@ -24,6 +24,7 @@ import { LoginModule, LoginRoutingModule,  CadastroPjModule, CadastroPjRoutingMo
     CadastroPjModule,
     CadastroPfModule,
     FuncionarioModule,
+    AdminModule,
 
     BrowserAnimationsModule,
     FlexLayoutModule,
@@ -34,6 +35,7 @@ import { LoginModule, LoginRoutingModule,  CadastroPjModule, CadastroPjRoutingMo
     CadastroPjRoutingModule,
     CadastroPfRoutingModule,
     FuncionarioRoutingModule,
+    AdminRoutingModule,
     AppRoutingModule,
   ],
   providers: [],

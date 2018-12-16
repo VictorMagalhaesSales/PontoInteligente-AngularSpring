@@ -1,5 +1,6 @@
 package com.pontointeligente.api.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
@@ -41,4 +42,7 @@ public interface FuncionarioService {
 	 * @return
 	 */
 	Optional<Funcionario> buscarPorId(Long id);
+
+
+	List<Funcionario> buscarPorEmpresaId(Long id);
 }
