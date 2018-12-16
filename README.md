@@ -11,7 +11,7 @@ A API RESTful de Ponto Inteligente contém as seguintes características:
 
 ### Algumas fotos
 
-<img src="https://user-images.githubusercontent.com/20648428/50050335-62142700-00d6-11e9-9f47-aa28a98f2dd5.png4">
+<img src="https://user-images.githubusercontent.com/20648428/50050335-62142700-00d6-11e9-9f47-aa28a98f2dd5.png">
 
 <img src="https://user-images.githubusercontent.com/20648428/50050336-62142700-00d6-11e9-86e8-b4ed5f4ef807.png" width="50%"><img src="https://user-images.githubusercontent.com/20648428/50050338-62acbd80-00d6-11e9-82a7-90ce8bacf6ad.png" width="50%">
 
