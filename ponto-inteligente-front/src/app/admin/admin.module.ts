@@ -26,6 +26,7 @@ import {
 import { ListagemComponent, CadastroComponent, AtualizacaoComponent, AdminComponent, ConfirmarDialog } from './components';
 import { SharedModule } from './../shared/shared.module';
 import { PtBrMatPaginatorIntl, HttpUtilService, LancamentoService, FuncionarioService  } from './../shared/';
+import { AdminGuard } from './services';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { PtBrMatPaginatorIntl, HttpUtilService, LancamentoService, FuncionarioSe
     FuncionarioService,
     { provide: MAT_DATE_LOCALE, useValue: 'pt-BR' },
     { provide: MatPaginatorIntl, useClass: PtBrMatPaginatorIntl },
+    AdminGuard
   ],
   entryComponents: [ ConfirmarDialog ]
 })
