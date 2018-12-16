@@ -23,7 +23,7 @@ import {
   MatSortModule
 } from '@angular/material';
 
-import { ListagemComponent, CadastroComponent, AtualizacaoComponent, AdminComponent } from './components';
+import { ListagemComponent, CadastroComponent, AtualizacaoComponent, AdminComponent, ConfirmarDialog } from './components';
 import { SharedModule } from './../shared/shared.module';
 import { PtBrMatPaginatorIntl, HttpUtilService, LancamentoService, FuncionarioService  } from './../shared/';
 
@@ -32,7 +32,8 @@ import { PtBrMatPaginatorIntl, HttpUtilService, LancamentoService, FuncionarioSe
     ListagemComponent,
     CadastroComponent,
     AtualizacaoComponent,
-    AdminComponent
+    AdminComponent,
+    ConfirmarDialog
   ],
   imports: [
     CommonModule,
@@ -65,6 +66,7 @@ import { PtBrMatPaginatorIntl, HttpUtilService, LancamentoService, FuncionarioSe
     FuncionarioService,
     { provide: MAT_DATE_LOCALE, useValue: 'pt-BR' },
     { provide: MatPaginatorIntl, useClass: PtBrMatPaginatorIntl },
-  ]
+  ],
+  entryComponents: [ ConfirmarDialog ]
 })
 export class AdminModule { }

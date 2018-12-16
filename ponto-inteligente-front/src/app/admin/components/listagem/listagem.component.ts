@@ -143,7 +143,7 @@ export class ListagemComponent implements OnInit {
   }
 
   remover(lancamentoId: string) {
-    /*this.lancamentoService.remover(lancamentoId)
+    this.lancamentoService.remover(lancamentoId)
       .subscribe(
         data => {
           const msg: string = "Lançamento removido com sucesso!";
@@ -157,7 +157,7 @@ export class ListagemComponent implements OnInit {
           }
           this.snackBar.open(msg, "Erro", { duration: 5000 });
         }
-      );*/
+      );
   }
 
 }
