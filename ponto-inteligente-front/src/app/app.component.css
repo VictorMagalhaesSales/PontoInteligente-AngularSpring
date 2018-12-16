@@ -1,7 +1,18 @@
+.conteudo {
+  margin: 0px;
+  background-image: url('../assets/images/background.png');
+  height: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .toolbar-icon {
   padding: 0 14px;
 }
 
 .toolbar-spacer {
   flex: 1 1 auto;
+}
+
+mat-toolbar {
+  margin-bottom: 1%;
 }

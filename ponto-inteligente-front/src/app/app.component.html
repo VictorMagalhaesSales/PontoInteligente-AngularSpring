@@ -1,6 +1,9 @@
-<mat-toolbar color="primary">
-    <span>Ponto Inteligente</span>
+<div class="conteudo">
+  <mat-toolbar color="primary">
+    <img src="../assets/images/relogio.png" width="50px" style="margin-right: 20px">
+    <span> Ponto Inteligente</span>
     <span class="toolbar-spacer"></span>
+    <img src="../assets/images/spring_angular.png" width="170px">
     <a (click)="sair()" style="cursor: pointer"
       alt="Sair" title="Sair"
       *ngIf="autenticado()">
@@ -11,5 +14,11 @@
       </mat-icon>
     </a>
   </mat-toolbar>
-  <router-outlet></router-outlet>
+
+  <div class="rota">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+
   

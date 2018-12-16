@@ -9,7 +9,7 @@ import { LoginService } from '../../services';
 @Component({
   selector: 'app-login-pf',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.sass']
+  styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
 
